@@ -1,0 +1,11 @@
+
+.tip {
+    margin: 100px 0 100px 0;
+    border: 2px solid black;
+    padding: 2px;
+    background-color: #aacc66;
+}
+
+#back-home {
+    margin: 200px 0 400px 0;
+}

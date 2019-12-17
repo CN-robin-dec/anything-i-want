@@ -1,0 +1,68 @@
+
+h1, h2 {
+    color: blue;
+}
+
+* {
+    background-color: #88cc88;
+}
+
+#nav-bar {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-end;
+    border: 2px blue dashed;
+    padding: 10px;
+}
+
+.nav-button {
+    margin: 5px;
+    border: 5px;
+    padding: 5px;
+}
+
+#testingid {
+    color: beige;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#head-of-state{
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    margin: 30px 20px 50px 40px;
+    border: 2px;
+    border-style: solid;
+    border-color;
+    padding: 20px;
+}
+
+#state-of-head{
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    font-size: 5vw;
+    border: 4px;
+    border-color: green;
+    border-style: solid;
+    padding: 10px;
+    margin: 10px;
+}
+
+#design-tips{
+    border: 12px;
+    border-color: grey;
+    border-style: dashed;
+    margin: 10px 30px;
+    padding: 12px;
+}
+
+#more-tips{
+    margin: 10px 5px;
+    padding: 5px;
+    border: 10px;
+    border-style: dotted;
+    border-color: green;
+}
+
+
