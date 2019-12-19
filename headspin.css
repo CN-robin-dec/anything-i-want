@@ -1,0 +1,81 @@
+#head-of-state{
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    margin: 30px 20px 50px 40px;
+    border: 2px solid violet;
+    padding: 20px;
+}
+
+#state-of-head{
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    font-size: 5vw;
+    border: 4px;
+    border-color: green;
+    border-style: solid;
+    padding: 10px;
+    margin: 10px;
+}
+
+#spinnyhead01 {
+    //background-color:lightblue;
+    transform:rotate(10deg);
+}
+
+#spinnyhead02 {
+    //background-color:lightblue;
+    transform:rotate(290deg);
+}
+
+#spinnyhead03 {
+    //background-color:lightblue;
+    transform:rotate(190deg);
+}
+
+#spinnyhead04 {
+    //background-color:lightblue;
+    transform:rotate(150deg);
+}
+
+#spinnyhead05 {
+    //background-color:lightblue;
+    transform:rotate(40deg);
+}
+
+#spinnyhead06 {
+    //background-color:lightblue;
+    transform:rotate(0deg);
+}
+
+#spinnyhead07 {
+    //background-color:lightblue;
+    transform:rotate(170deg);
+}
+
+#spinnyhead08 {
+    //background-color:lightblue;
+    transform:rotate(70deg);
+}
+
+#spinnyhead09 {
+    //background-color:lightblue;
+    transform:rotate(270deg);
+}
+
+#spinnyhead10 {
+    //background-color:lightblue;
+    transform:rotate(160deg);
+}
+
+#spinnyhead11 {
+    //background-color:lightblue;
+    transform:rotate(330deg);
+}
+
+#spinnyhead12 {
+    //background-color:lightblue;
+    transform:rotate(210deg);
+}
+

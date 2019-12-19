@@ -1,29 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="menus.css">
+    <link rel="stylesheet" type="text/css" href="index-page.css">
     <link rel="stylesheet" type="text/css" href="headspin.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Robin's week three blog page</title>
 </head>
+
 <body>
-<div id="nav-bar">
-    <a href="index.html" class="nav-button">Home Page</a>
-    <a href="aboutme.html" class="nav-button">About Me</a>
-    <div id="design-tips" class="nav-button">
-        <a href="designtips.html#tipone">Point 1</a>
-        <a href="designtips.html#tiptwo">Point 2</a>
-        <a href="designtips.html#tipthree">Point 3</a>
-        <a href="designtips.html#tipfour">Point 4</a>
-        <a href="designtips.html#tipfive">Point 5</a>
-        <a href="designtips.html#tipsix">Point 6</a>
-        <a href="designtips.html#tipseven">Point 7</a>
+    <div id="nav-bar">
+        <ul>
+            <li><a href="index.html" class="nav-button">Home Page</a></li>
+            <li><a href="index.html#aboutme" class="nav-button">About Me</a></li>
+            <li class="dropdown"><a href="unit1_outcome1.html" class="nav-button">Unit 1: Outcome 1</a>
+                <div class="dropdown-content">
+                    <a href="unit1_outcome1.html#unit1.1.1">Outcome 1.1</a>
+                    <a href="unit1_outcome1.html#unit1.1.2">Outcome 1.2</a>
+                    <a href="unit1_outcome1.html#unit1.1.3">Outcome 1.3</a>
+                    <a href="unit1_outcome1.html#unit1.1.4">Outcome 1.4</a>
+                    <a href="unit1_outcome1.html#unit1.1.5">Outcome 1.5</a>
+                    <a href="unit1_outcome1.html#unit1.1.6">Outcome 1.6</a>
+                    <a href="unit1_outcome1.html#unit1.1.7">Outcome 1.7</a>
+                </div>
+            </li>
+            <li class="dropdown"><a href="unit1_outcome2.html" class="nav-button">Unit 1: Outcome 2</a>
+                <div class="dropdown-content">
+                    <a href="unit1_outcome2.html#unit1.2.1">Outcome 2.1</a>
+                    <a href="unit1_outcome2.html#unit1.2.2">Outcome 2.2</a>
+                    <a href="unit1_outcome2.html#unit1.2.3">Outcome 2.3</a>
+                    <a href="unit1_outcome2.html#unit1.2.4">Outcome 2.4</a>
+                    <a href="unit1_outcome2.html#unit1.2.5">Outcome 2.5</a>
+                </div>
+            </li>
+            <li class="dropdown"><a href="unit1_outcome3.html" class="nav-button">Unit 1: Outcome 3</a>
+                <div class="dropdown-content">
+                    <a href="unit1_outcome3.html#unit1.3.1">Outcome 3.1</a>
+                    <a href="unit1_outcome3.html#unit1.3.2">Outcome 3.2</a>
+                    <a href="unit1_outcome3.html#unit1.3.3">Outcome 3.3</a>
+                    <a href="unit1_outcome3.html#unit1.3.4">Outcome 3.4</a>
+                </div>
+            </li>
+            <li class="dropdown"><a href="unit2_outcome1.html" class="nav-button">Unit 2: Outcome 1</a>
+                <div class="dropdown-content">
+                    <a href="unit2_outcome1.html#unit2.1.1">Outcome 1.1</a>
+                    <a href="unit2_outcome1.html#unit2.1.5">Outcome 1.5</a>
+                    <a href="unit2_outcome1.html#unit2.1.6">Outcome 1.6</a>
+                    <a href="unit2_outcome1.html#unit2.1.7">Outcome 1.7</a>
+                </div>
+            </li>
+
+        </ul>
     </div>
-    <a href="moretips.html" class="nav-button">More Tips (Unit 2)</a>
-</div>
-            <h1>Hello World</h1>
+    <h1>Hello World</h1>
     <div>
         <h2>This is the head of the state.</h2>
         <div id="head-of-state">
@@ -43,28 +76,31 @@
     </div>
     <div>
         <h2>This is the state of the head.</h2>
-        <a href="aboutme.html">About me</a>
         <div id="state-of-head">
-            <image src="scream-face-25pc.jpg" alt="The head of the head of the state"></image>
-            <image src="scream-face-25pc.jpg" alt="The head of the head of the state"></image>
-            <image src="scream-face-25pc.jpg" alt="The head of the head of the state"></image>
-            <image src="scream-face-25pc.jpg" alt="The head of the head of the state"></image>
-            <image src="scream-face-25pc.jpg" alt="The head of the head of the state"></image>
-            <image src="scream-face-25pc.jpg" alt="The head of the head of the state"></image>
-            <image src="scream-face-25pc.jpg" alt="The head of the head of the state"></image>
-            <image src="scream-face-25pc.jpg" alt="The head of the head of the state"></image>
-            <image src="scream-face-25pc.jpg" alt="The head of the head of the state"></image>
-            <image src="scream-face-25pc.jpg" alt="The head of the head of the state"></image>
-            <image src="scream-face-25pc.jpg" alt="The head of the head of the state"></image>
-            <image src="scream-face-25pc.jpg" alt="The head of the head of the state"></image>
+            <image id="screamhead01" src="scream-face-25pc.jpg" alt="The state of the head"></image>
+            <image id="screamhead02" src="scream-face-25pc.jpg" alt="The state of the head"></image>
+            <image id="screamhead03" src="scream-face-25pc.jpg" alt="The state of the head"></image>
+            <image id="screamhead04" src="scream-face-25pc.jpg" alt="The state of the head"></image>
+            <image id="screamhead05" src="scream-face-25pc.jpg" alt="The state of the head"></image>
+            <image id="screamhead06" src="scream-face-25pc.jpg" alt="The state of the head"></image>
+            <image id="screamhead07" src="scream-face-25pc.jpg" alt="The state of the head"></image>
+            <image id="screamhead08" src="scream-face-25pc.jpg" alt="The state of the head"></image>
+            <image id="screamhead09" src="scream-face-25pc.jpg" alt="The state of the head"></image>
+            <image id="screamhead10" src="scream-face-25pc.jpg" alt="The state of the head"></image>
+            <image id="screamhead11" src="scream-face-25pc.jpg" alt="The state of the head"></image>
+            <image id="screamhead12" src="scream-face-25pc.jpg" alt="The state of the head"></image>
         </div>
-    </div>
-    <div id="design-tips">
-        <h2 id="testingid"><a href="designtips.html">Here</a> is some info about website development</h2>
-    </div>
-    <div id="moretips">
-        <h2><a href="moretips.html">Some more tips are here</a></h2>
-    </div>
+        <div style="text-align:justify;position:absolute;top:2800px;"> ^^^ The rest of the page is that way ^^^</div>
+        <!--    <div style="text-align:center;"> ^^^ The rest of the page is that way ^^^</div>
+-->
+        <div class="tip" id="aboutme">
+            <div>
+                I first got into coding while running a project music studio in the 1990s.
+                After studying Maths & Physics at university, I became interested in developing open source
+                code for digital music production. I was led to Code Nation after seeing an article in our
+                local paper. (Chester Standard)"
+            </div>
+        </div>
 </body>
-</html>
 
+</html>
