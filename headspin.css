@@ -20,62 +20,340 @@
 }
 
 #spinnyhead01 {
-    //background-color:lightblue;
-    transform:rotate(10deg);
+    animation: rotations01 1s infinite linear;
+}
+
+@keyframes rotations01 {
+    from {
+        -webkit-transform: rotate(60deg);
+    }
+
+    to {
+        -webkit-transform: rotate(120deg);
+    }
 }
 
 #spinnyhead02 {
-    //background-color:lightblue;
-    transform:rotate(290deg);
+    animation: rotations02 3s infinite linear;
+}
+
+@keyframes rotations02 {
+    from {
+        -webkit-transform: rotate(59deg);
+    }
+
+    to {
+        -webkit-transform: rotate(10deg);
+    }
 }
 
 #spinnyhead03 {
-    //background-color:lightblue;
-    transform:rotate(190deg);
+    animation: rotations03 1s infinite linear;
+}
+
+@keyframes rotations03 {
+    from {
+        -webkit-transform: rotate(59deg);
+    }
+
+    to {
+        -webkit-transform: rotate(220deg);
+    }
 }
 
 #spinnyhead04 {
-    //background-color:lightblue;
-    transform:rotate(150deg);
+    animation: rotations04 5s infinite linear;
+}
+
+@keyframes rotations04 {
+    from {
+        -webkit-transform: rotate(156deg);
+    }
+
+    to {
+        -webkit-transform: rotate(40deg);
+    }
 }
 
 #spinnyhead05 {
-    //background-color:lightblue;
-    transform:rotate(40deg);
+    animation: rotations05 21s infinite linear;
+}
+
+@keyframes rotations05 {
+    from {
+        -webkit-transform: rotate(259deg);
+    }
+
+    to {
+        -webkit-transform: rotate(120deg);
+    }
 }
 
 #spinnyhead06 {
-    //background-color:lightblue;
-    transform:rotate(0deg);
+    animation: rotations06 8s infinite linear;
+}
+
+@keyframes rotations06 {
+    from {
+        -webkit-transform: rotate(19deg);
+    }
+
+    to {
+        -webkit-transform: rotate(120deg);
+    }
 }
 
 #spinnyhead07 {
-    //background-color:lightblue;
-    transform:rotate(170deg);
+    animation: rotations07 11s infinite linear;
+}
+
+@keyframes rotations07 {
+    from {
+        -webkit-transform: rotate(259deg);
+    }
+
+    to {
+        -webkit-transform: rotate(120deg);
+    }
 }
 
 #spinnyhead08 {
-    //background-color:lightblue;
-    transform:rotate(70deg);
+    animation: rotations08 6s infinite linear;
+}
+
+@keyframes rotations08 {
+    from {
+        -webkit-transform: rotate(59deg);
+    }
+
+    to {
+        -webkit-transform: rotate(0deg);
+    }
 }
 
 #spinnyhead09 {
-    //background-color:lightblue;
-    transform:rotate(270deg);
+    animation: rotations09 21s infinite linear;
+}
+
+@keyframes rotations09 {
+    from {
+        -webkit-transform: rotate(519deg);
+    }
+
+    to {
+        -webkit-transform: rotate(50deg);
+    }
 }
 
 #spinnyhead10 {
-    //background-color:lightblue;
-    transform:rotate(160deg);
+    animation: rotations10 13s infinite linear;
 }
 
+@keyframes rotations10 {
+    from {
+        -webkit-transform: rotate(359deg);
+    }
+
+    to {
+        -webkit-transform: rotate(0deg);
+    }
+}
+
+
+
 #spinnyhead11 {
-    //background-color:lightblue;
-    transform:rotate(330deg);
+    animation: rotations11 1s infinite linear;
+}
+
+@keyframes rotations11 {
+    from {
+        -webkit-transform: rotate(59deg);
+    }
+
+    to {
+        -webkit-transform: rotate(220deg);
+    }
 }
 
 #spinnyhead12 {
-    //background-color:lightblue;
-    transform:rotate(210deg);
+    animation: rotations12 11s infinite linear;
+}
+
+@keyframes rotations12 {
+    from {
+        -webkit-transform: rotate(359deg);
+    }
+
+    to {
+        -webkit-transform: rotate(0deg);
+    }
+}
+
+#screamhead01 {
+    animation: scales01 10s infinite linear 0.0s;
+// duration timing-function delay iteration-count direction fill-mode;
+}
+@keyframes scales01 {
+from{
+    -webkit-transform: scaleX(100%);
+}
+to {
+    -webkit-transform: scaleX(0);
+}
+
+}
+
+#screamhead02 {
+    animation: scales02 10s infinite linear 0.5s ;
+// duration timing-function delay iteration-count direction fill-mode;
+}
+@keyframes scales02 {
+from{
+    -webkit-transform: scaleX(100%);
+}
+to {
+    -webkit-transform: scaleX(0);
+}
+
+}
+
+#screamhead03 {
+    animation: scales03 10s infinite linear 1.0s ;
+// duration timing-function delay iteration-count direction fill-mode;
+}
+@keyframes scales03 {
+from{
+    -webkit-transform: scaleX(100%);
+}
+to {
+    -webkit-transform: scaleX(0);
+}
+
+}
+
+#screamhead04 {
+    animation: scales04 10s infinite linear 1.5s ;
+// duration timing-function delay iteration-count direction fill-mode;
+}
+@keyframes scales04 {
+from{
+    -webkit-transform: scaleX(100%);
+}
+to {
+    -webkit-transform: scaleX(0);
+}
+
+}
+
+#screamhead05 {
+    animation: scales05 10s infinite linear 2.0s ;
+// duration timing-function delay iteration-count direction fill-mode;
+}
+@keyframes scales05 {
+from{
+    -webkit-transform: scaleX(100%);
+}
+to {
+    -webkit-transform: scaleX(0);
+}
+
+}
+
+#screamhead06 {
+    animation: scales06 10s infinite linear 2.5s ;
+// duration timing-function delay iteration-count direction fill-mode;
+}
+@keyframes scales06 {
+from{
+    -webkit-transform: scaleX(100%);
+}
+to {
+    -webkit-transform: scaleX(0);
+}
+
+}
+
+#screamhead07 {
+    animation: scales07 10s infinite linear 3.0s ;
+// duration timing-function delay iteration-count direction fill-mode;
+}
+@keyframes scales07 {
+from{
+    -webkit-transform: scaleX(100%);
+}
+to {
+    -webkit-transform: scaleX(0);
+}
+
+}
+
+#screamhead08 {
+    animation: scales08 10s infinite linear 3.5s ;
+// duration timing-function delay iteration-count direction fill-mode;
+}
+@keyframes scales08 {
+from{
+    -webkit-transform: scaleX(100%);
+}
+to {
+    -webkit-transform: scaleX(0);
+}
+
+}
+
+#screamhead09 {
+    animation: scales09 10s infinite linear 4.0s ;
+// duration timing-function delay iteration-count direction fill-mode;
+}
+@keyframes scales09 {
+from{
+    -webkit-transform: scaleX(100%);
+}
+to {
+    -webkit-transform: scaleX(0);
+}
+
+}
+
+#screamhead10 {
+    animation: scales10 10s infinite linear 4.5s ;
+// duration timing-function delay iteration-count direction fill-mode;
+}
+@keyframes scales10 {
+from{
+    -webkit-transform: scaleX(100%);
+}
+to {
+    -webkit-transform: scaleX(0);
+}
+
+}
+
+#screamhead11 {
+    animation: scales11 10s infinite linear 5.0s ;
+// duration timing-function delay iteration-count direction fill-mode;
+}
+@keyframes scales11 {
+from{
+    -webkit-transform: scaleX(100%);
+}
+to {
+    -webkit-transform: scaleX(0);
+}
+
+}
+
+#screamhead12 {
+    animation: scales12 10s infinite linear 5.5s;
+// duration timing-function delay iteration-count direction fill-mode;
+}
+@keyframes scales12 {
+from{
+    -webkit-transform: scaleX(100%);
+}
+to {
+    -webkit-transform: scaleX(0);
+}
+
 }
 
